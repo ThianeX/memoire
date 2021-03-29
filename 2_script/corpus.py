@@ -5,10 +5,12 @@ Created on Sun Dec  6 18:14:11 2020
 @author: Carol
 """
 
-import os
+#import os
 import re
 import pypinyin
+import sys
 
+'''
 def import_data(rep="../1_data/1_original"):
     """
     Input = str rep des data
@@ -21,30 +23,32 @@ def import_data(rep="../1_data/1_original"):
             file_read = file_opened.readlines()
             files_read.append(file_read)
     return files_read
+'''
 
-def cree_corpus(files_read):
+def cree_corpus(rep="../1_data/1_original",file="nouvelles"):
     """
-    Input = list files_read[[lignes de ficher1],[lignes de ficher2]...]
+    Input = str rep des data
     Output = fichier ../1_data/2_corpus/corpus.txt
-    """
+    """   
+    with open(rep+'/'+file+'.txt', "r", encoding="utf-8") as file_opened:
+        file_read = file_opened.readlines()
     corpus = []
-    for i in files_read:
-        for j in i:
-            if j != "\n":
-                corpus.append(j.strip())
-    with open("../1_data/2_corpus/corpus.txt", "w", encoding="utf-8") as \
+    for i in file_read:
+        if i != "\n":
+            corpus.append(i.strip())
+    with open("../1_data/2_corpus/"+'corpus_'+str(file)+'.txt', "w", encoding="utf-8") as \
     file_opened:
         for i in corpus:
             file_opened.write(i)
             file_opened.write("\n")
     return True
 
-def corpus_humain(rep="../1_data/2_corpus"):
+def corpus_aseg(rep="../1_data/2_corpus", file="nouvelles"):
     """
-    Input = rep de corpus par defaut"../1_data/2_corpus"
+    Input = str rep des data
     Output = fichier ../1_data/2_corpus/corpus_humain.txt
     """
-    with open(os.path.join(rep,'corpus.txt'), "r", encoding="utf-8") as \
+    with open(rep+'/'+'corpus_'+str(file)+'.txt', "r", encoding="utf-8") as \
     file_opened:
         file_opened = file_opened.read()
     pattern = r'？|。|！|\n'
@@ -57,7 +61,7 @@ def corpus_humain(rep="../1_data/2_corpus"):
             corpus_humain += str(c)+'\t'+str(i)+'\n'+('#'+pinyin(i))+'\n#\n#\n'   
         elif i != '' and i[0] == '&':
             corpus_humain +=str(i)+'\n'
-    with open(os.path.join(rep,'corpus_humain.txt'), "w", encoding="utf-8") as\
+    with open(rep+'/corpus_'+str(file)+'_aseg.txt', "w", encoding="utf-8") as\
     file_opened:
         file_opened.write(corpus_humain)
     return True
@@ -73,6 +77,6 @@ def pinyin(phrase):
     return pyin
 
 if __name__ =="__main__" :
-    cree_corpus(import_data(rep="../1_data/1_original"))
-    corpus_humain()
+    cree_corpus(rep="../1_data/1_original", file = sys.argv[1])
+    corpus_aseg(rep="../1_data/2_corpus", file= sys.argv[1])
     

@@ -1,0 +1,160 @@
+1	为了避免汉语自动分词过程中出现切分盲点,切分的基础应该是全切分算法
+#wèi le bì miǎn hàn yǔ zì dòng fēn cí guò chéng zhōng chū xiàn qiè fēn máng diǎn , qiè fēn de jī chǔ yīng gāi shì quán qiè fēn suàn fǎ 
+#
+#
+2	通过把整个分词过程分解为若干子过程,实现多步处理策略,从而解决了某些特殊的分词问题
+#tōng guò bǎ zhěng gè fēn cí guò chéng fēn jiě wèi ruò gān zi guò chéng , shí xiàn duō bù chǔ lǐ cè lüè , cóng ér jiě jué le mǒu xiē tè shū de fēn cí wèn tí 
+#
+#
+3	图1表示多步处理策略的自动分词实现流程
+#tú 1 biǎo shì duō bù chǔ lǐ cè lüè de zì dòng fēn cí shí xiàn liú chéng 
+#
+#
+4	切分歧义中最常见的一类歧义是交集歧义,但有许多交集歧义属于伪歧义
+#qiè fēn qí yì zhōng zuì cháng jiàn de yī lèi qí yì shì jiāo jí qí yì , dàn yǒu xǔ duō jiāo jí qí yì shǔ yú wěi qí yì 
+#
+#
+5	所谓伪歧义是指包含交集歧义但实际文本中只能有或几乎只有一种切分可能的字段
+#suǒ wèi wěi qí yì shì zhǐ bāo hán jiāo jí qí yì dàn shí jì wén běn zhōng zhǐ néng yǒu huò jī hū zhǐ yǒu yī zhǒng qiè fēn kě néng de zì duàn 
+#
+#
+6	我们采用查表的方式直接确定分词形式,而不再参与后续的分词处理过程
+#wǒ men cǎi yòng chá biǎo de fāng shì zhí jiē què dìng fēn cí xíng shì , ér bù zài cān yù hòu xù de fēn cí chǔ lǐ guò chéng 
+#
+#
+7	例如:“办法规定”,实际文本中的切分形式一般就是“办法/规定”,其中的“法规”很难成为一个词
+#lì rú :“ bàn fǎ guī dìng ”, shí jì wén běn zhōng de qiè fēn xíng shì yì bān jiù shì “ bàn fǎ / guī dìng ”, qí zhōng de “ fǎ guī ” hěn nán chéng wéi yí gè cí 
+#
+#
+8	这样,通过查伪歧义表,某些切分形式一开始就决定了
+#zhè yàng , tōng guò chá wěi qí yì biǎo , mǒu xiē qiè fēn xíng shì yī kāi shǐ jiù jué dìng le 
+#
+#
+9	大规模的统计表明4000多个列表项可以覆盖全部交叉歧义的53.35%
+#dà guī mó de tǒng jì biǎo míng 4000 duō gè liè biǎo xiàng kě yǐ fù gài quán bù jiāo chā qí yì de 53.35% 
+#
+#
+10	在流程中,首先使用全切分算法给出一个汉语句子的所有可能的切分方式,即任何匹配词典中词的字串都被加入到全切分结果集合当中
+#zài liú chéng zhōng , shǒu xiān shǐ yòng quán qiè fēn suàn fǎ gěi chū yí gè hàn yǔ jù zi de suǒ yǒu kě néng de qiè fēn fāng shì , jí rèn hé pǐ pèi cí diǎn zhōng cí de zì chuàn dōu bèi jiā rù dào quán qiè fēn jié guǒ jí hé dāng zhōng 
+#
+#
+11	这样,就保证了句子中任何可能的切分结果都不会被后续处理所遗漏
+#zhè yàng , jiù bǎo zhèng le jù zi zhōng rèn hé kě néng de qiè fēn jié guǒ dōu bú huì bèi hòu xù chǔ lǐ suǒ yí lòu 
+#
+#
+12	全切分完成后,某些切分结果(即出现在词典中的词)具有特殊的词性,不会与其他词产生交叉切分歧义,因而很容易被首先确定下来
+#quán qiè fēn wán chéng hòu , mǒu xiē qiè fēn jié guǒ ( jí chū xiàn zài cí diǎn zhōng de cí ) jù yǒu tè shū de cí xìng , bú huì yǔ qí tā cí chǎn shēng jiāo chā qiè fēn qí yì , yīn ér hěn róng yì bèi shǒu xiān què dìng xià lái 
+#
+#
+13	这些词性包括成语、惯用语、叹词、语气词等4类
+#zhè xiē cí xìng bāo kuò chéng yǔ 、 guàn yòng yǔ 、 tàn cí 、 yǔ qì cí děng 4 lèi 
+#
+#
+14	这就是确定性分词处理步骤
+#zhè jiù shì què dìng xìng fēn cí chǔ lǐ bù zhòu 
+#
+#
+15	实用的汉语分词系统除了要对上述情况予以处理以外,还可以专门建立用户自己定义的辅助词典,把某些满足汉语惯用表达方式的短语(如四字词语)存入其中,一开始就将其切分为一个词
+#shí yòng de hàn yǔ fēn cí xì tǒng chú le yào duì shàng shù qíng kuàng yǔ yǐ chǔ lǐ yǐ wài , hái kě yǐ zhuān mén jiàn lì yòng hù zì jǐ dìng yì de fǔ zhù cí diǎn , bǎ mǒu xiē mǎn zú hàn yǔ guàn yòng biǎo dá fāng shì de duǎn yǔ ( rú sì zì cí yǔ ) cún rù qí zhōng , yī kāi shǐ jiù jiāng qí qiè fēn wéi yí gè cí 
+#
+#
+16	因为在这样的情况下,分开来不易分析,而且常常会出现错误
+#yīn wèi zài zhè yàng de qíng kuàng xià , fēn kāi lái bù yì fēn xī , ér qiě cháng cháng huì chū xiàn cuò wù 
+#
+#
+17	汉语数词(即一、二、三、百、千、万……)是典型的单字词,数词串就是单字词串
+#hàn yǔ shù cí ( jí yī 、 èr 、 sān 、 bǎi 、 qiān 、 wàn ……) shì diǎn xíng de dān zì cí , shù cí chuàn jiù shì dān zì cí chuàn 
+#
+#
+18	如果句子中出现数词串,有必要首先将其合并,从而减少句子中切分结果的数量,以利于分词过程后续阶段的处理
+#rú guǒ jù zi zhōng chū xiàn shù cí chuàn , yǒu bì yào shǒu xiān jiāng qí hé bìng , cóng ér jiǎn shǎo jù zi zhōng qiè fēn jié guǒ de shù liàng , yǐ lì yú fēn cí guò chéng hòu xù jiē duàn de chǔ lǐ 
+#
+#
+19	汉语的重叠现象需要单独处理
+#hàn yǔ de chóng dié xiàn xiàng xū yào dān dú chǔ lǐ 
+#
+#
+20	因为许多重叠词的存在,会使句子中单个汉字节点增多
+#yīn wèi xǔ duō chóng dié cí de cún zài , huì shǐ jù zi zhōng dān gè hàn zì jié diǎn zēng duō 
+#
+#
+21	如果不合并它们,就会把属于同一词或同一节点的汉字分割开来,可能会使句子的句法结构分析产生错误
+#rú guǒ bù hé bìng tā men , jiù huì bǎ shǔ yú tóng yī cí huò tóng yī jié diǎn de hàn zì fēn gē kāi lái , kě néng huì shǐ jù zi de jù fǎ jié gòu fēn xī chǎn shēng cuò wù 
+#
+#
+22	所以,需要将重叠部分合并以后再设置相应的标志,有利于后续的句法分析
+#suǒ yǐ , xū yào jiāng chóng dié bù fèn hé bìng yǐ hòu zài shè zhì xiāng yìng de biāo zhì , yǒu lì yú hòu xù de jù fǎ fēn xī 
+#
+#
+23	整个分词处理过程中的重要部分是未登录词的识别
+#zhěng gè fēn cí chǔ lǐ guò chéng zhōng de zhòng yào bù fèn shì wèi dēng lù cí de shí bié 
+#
+#
+24	识别过程采用了统计方法,对句子中出现的单字串进行中国人名、中国地名、外国人名译名或地名译名的识别
+#shí bié guò chéng cǎi yòng le tǒng jì fāng fǎ , duì jù zi zhōng chū xiàn de dān zì chuàn jìn xíng zhōng guó rén míng 、 zhōng guó dì míng 、 wài guó rén míng yì míng huò dì míng yì míng de shí bié 
+#
+#
+25	统计单个汉字在上述名字中出现的频率,作为识别的依据
+#tǒng jì dān gè hàn zì zài shàng shù míng zì zhōng chū xiàn de pín lǜ , zuò wéi shí bié de yī jù 
+#
+#
+26	最后,少数尚未确定的组合或交叉歧义以及未登录词将在下一步词性标注过程中借助词性信息和上下文信息予以确定
+#zuì hòu , shǎo shù shàng wèi què dìng de zǔ hé huò jiāo chā qí yì yǐ jí wèi dēng lù cí jiāng zài xià yī bù cí xìng biāo zhù guò chéng zhōng jiè zhù cí xìng xìn xī hé shàng xià wén xìn xī yǔ yǐ què dìng 
+#
+#
+27	这一过程也称为分词词性标注一体化过程
+#zhè yī guò chéng yě chēng wéi fēn cí cí xìng biāo zhù yī tǐ huà guò chéng 
+#
+#
+28	整个分词过程的基础是全切分算法
+#zhěng gè fēn cí guò chéng de jī chǔ shì quán qiè fēn suàn fǎ 
+#
+#
+29	其输出结果是一个句子的所有可能切分的形式,即任何出现在词典中的词都放入全切分列表
+#qí shū chū jié guǒ shì yí gè jù zi de suǒ yǒu kě néng qiè fēn de xíng shì , jí rèn hé chū xiàn zài cí diǎn zhōng de cí dōu fàng rù quán qiè fēn liè biǎo 
+#
+#
+30	例如,对于汉语句子”全切分的结果是一个有向图
+#lì rú , duì yú hàn yǔ jù zi ” quán qiè fēn de jié guǒ shì yí gè yǒu xiàng tú 
+#
+#
+31	”,其全切分结果如图2所示
+#”, qí quán qiè fēn jié guǒ rú tú 2 suǒ shì 
+#
+#
+32	这是一个有向图,图中的每条弧表示一个切分结果,即一个词典中存在的词
+#zhè shì yí gè yǒu xiàng tú , tú zhōng de měi tiáo hú biǎo shì yí gè qiè fēn jié guǒ , jí yí gè cí diǎn zhōng cún zài de cí 
+#
+#
+33	如:“全、切、分、切分”等
+#rú :“ quán 、 qiè 、 fēn 、 qiè fēn ” děng 
+#
+#
+34	全切分算法保证了任何出现在句子中字串如果它属于词典中的一个词,则其必然为有向图中的一个弧
+#quán qiè fēn suàn fǎ bǎo zhèng le rèn hé chū xiàn zài jù zi zhōng zì chuàn rú guǒ tā shǔ yú cí diǎn zhōng de yí gè cí , zé qí bì rán wèi yǒu xiàng tú zhōng de yí gè hú 
+#
+#
+35	全部分词形式通过词典查询来确定,所有汉语单字(6763个)都包含在词典中看作一个单字词
+#quán bù fèn cí xíng shì tōng guò cí diǎn chá xún lái què dìng , suǒ yǒu hàn yǔ dān zì (6763 gè ) dōu bāo hán zài cí diǎn zhōng kàn zuò yí gè dān zì cí 
+#
+#
+36	与词典查询相关的数据结构主要是词典的索引结构,本系统采用两级索引结构
+#yǔ cí diǎn chá xún xiāng guān de shù jù jié gòu zhǔ yào shì cí diǎn de suǒ yǐn jié gòu , běn xì tǒng cǎi yòng liǎng jí suǒ yǐn jié gòu 
+#
+#
+37	第1级索引是6763个汉字,组织成哈希表形式
+#dì 1 jí suǒ yǐn shì 6763 gè hàn zì , zǔ zhī chéng hā xī biǎo xíng shì 
+#
+#
+38	第2级索引包括词典中的全部词,其第1个字对应于上述6763个汉字
+#dì 2 jí suǒ yǐn bāo kuò cí diǎn zhōng de quán bù cí , qí dì 1 gè zì duì yìng yú shàng shù 6763 gè hàn zì 
+#
+#
+39	第2级索引使用二分查找算法
+#dì 2 jí suǒ yǐn shǐ yòng èr fēn chá zhǎo suàn fǎ 
+#
+#
+40	词典的外部存储形式使用Huffman编码
+#cí diǎn de wài bù cún chǔ xíng shì shǐ yòng Huffman biān mǎ 
+#
+#

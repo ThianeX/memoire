@@ -1,0 +1,200 @@
+1	我/专门/请了假
+#wǒ /zhuān mén/ qǐng le jiǎ 
+#Je / spécialement / demandé la permission 
+#J'ai spécifiquement demandé la permission! 
+2	价值/110
+#jià zhí/ 110 
+#Valeur/ 110
+#Vaut 110
+3	哈哈哈哈哈哈哈哈/那/我们/去/哪儿/吃/呀
+#hā hā hā hā hā hā hā hā nà/ wǒ men/ qù/ nǎ ér/ chī/ ya/ 
+#Hahahahahahahahaha / puis / nous / où / manger / ah 
+#Hahahahahahahaha, où allons-nous manger alors
+4	我/带/你们/去/吃/炸猪排
+#wǒ/ dài/ nǐ men/ qù/ chī/ zhà zhū pái 
+#Je / ammener / vous / allez / manger / tonkatsu 
+#Je vais vous emmener manger du tonkatsu 
+5	爆炸/好吃
+#bào zhà/ hǎo chī 
+#Explosion / délicieux 
+#super délicieux 
+6	枸杞/吃过
+#gǒu qǐ/ chī guò 
+#Gouqi/ manger déjà
+#Gouqi l'a gouté
+7	好呀/
+#hǎo ya /
+#D'accord/ 
+#D'accord
+8	在哪/
+#zài nǎ 
+#à où /
+#c'est à où
+9	我/都/可以
+#wǒ/ dōu/ kě yǐ 
+#je / tout / d'accord
+#je suis d'accord pour tout (votre choix de restaurant)
+10	春熙路/
+#chūn xī lù/ 
+#Rue Chun Xi / 
+#dans la Rue Chun Xi
+11	哈哈哈哈/我/也/想/跟/靓靓/说/吃/炸猪排/来着
+#hā hā hā hā/ wǒ/ yě/ xiǎng/ gēn/ Liangliang/ shuō/ chī/ zhà zhū pái/ lái zhe 
+#Hahahaha / je / aussi / envie / à / Liangliang / parler / manger / tonkatsu / (Signe de qqch est déjà passé)
+#Hahahaha je veux aussi dire à Liangliang de manger du tonkatsu 
+12	那家/炸猪排/是/成都/最/好吃的/
+#nà jiā/ zhà zhū pái/ shì/ chéng dū/ zuì/ hǎo chī de/ 
+#ce (restaurant-là) / Tonkatsu / être / Chengdu / Le meilleur / Savoureux / 
+#Ce tonkatsu est le meilleur de Chengdu 
+13	馋/
+#chán / 
+#gourmand/
+#Je veux goûter déjà
+14	甚至/菲菲/都/说/好吃/不油
+#shèn zhì/ fēi fēi/ dōu/ shuō/ hǎo chī/ bù yóu 
+#Même / feifei / même / dire / délicieux / pas gras 
+#Même Feifei a dit que c'était délicieux mais pas gras 
+15	眼泪/不争气地/从/嘴角/流了下来/
+#yǎn lèi/ bù zhēng qì dì/ cóng/ zuǐ jiǎo/ liú le xià lái 
+#Larmes / Malheureusement / Qui coule de / Le coin de la bouche / 
+#Les larmes coulaient des coins de la bouche 
+16	还有/一个月/就/可以/了
+#hái yǒu/ yí gè yuè/ jiù/ kě yǐ/ le 
+#Il reste / un mois / juste / peut / (signe de déjà fait)
+#C'est bon dans un mois 
+17	哈哈哈哈哈哈/
+#hā hā hā hā hā hā /
+#Hahahahahaha / 
+#Hahahahahaha / 
+18	那/我们/明天/几点/见
+#nà wǒ men míng tiān jǐ diǎn jiàn 
+#alors / nous / demain / quelle heure / vous voir 
+#Alors à quelle heure nous verrons-nous demain 
+19	我/都/可以/ 我/离得近/ 你/问问/靓靓
+#wǒ dōu kě yǐ   wǒ lí dé jìn   nǐ wèn wèn Liangliang
+#Moi / tout / d'accord /  je / être proche / tu / demander / Liangliang
+#Je peux arriver quand vous voulez, je suis proche, demande à Liangliang 
+20	多重/艾特/术
+#duō zhòng/ ài tè/ shù 
+#Multi / @ / Technique 
+#Technique de @ plusieurs fois
+21	我/可/
+#wǒ /kě 
+#Je /peux/ 
+#Je peux
+22	12点半/
+#12 diǎn bàn /
+#12 h et demie/
+#12 h et demie/
+23	但是/我/下午/待不了/很久
+#dàn shì wǒ xià wǔ dài bù liǎo hěn jiǔ 
+#Mais / moi / après-midi / je ne peux pas rester / longtemps 
+#Mais je ne peux pas rester longtemps l'après-midi 
+24	可能/3 4点/就要/溜
+#kě néng 3 4 diǎn jiù yào liū 
+#Peut-être / 3 4 heures / falloir / se glisser furtivement
+#Peut-être à 3 ou 4 heures je vais me glisser furtivement
+25	也/可以/约/早点/
+#yě kě yǐ yuē zǎo diǎn 
+#Aussi / peut / rendez-vous / plus tôt / 
+#Nous pouvons également prendre rendez-vous plus tôt 
+26	我/吃完/就/溜溜/哈哈哈哈哈/
+#wǒ chī wán jiù liū liū hā hā hā hā hā 
+#Je / après avoir mangé / dès / se glisser furtivement / hahahahaha / 
+# Je vais me glisser furtivement dès avoir fini de manger hahahahaha
+27	可/
+#kě /
+#d'accord/
+#d'accord
+28	可/
+#kě /
+#d'accord/
+#d'accord/
+29	或者/可以/再/早点/
+#huò zhě/ kě yǐ/ zài/ zǎo diǎn /
+#Ou / peut / re / plus tôt / 
+#Ou peut être plus tôt 
+30	你/吃完/几点/溜/
+#@  nǐ/ chī wán/ jǐ diǎn/ liū /
+#Vous / après avoir mangé / à quelle heure / glisser / 
+#A quelle heure glissez-vous après avoir mangé 
+31	哈哈哈哈哈/先/逛会儿/吗/
+#hā hā hā hā hā/ xiān/ guàng huì er/ ma/ 
+#Hahahahaha /d'abord / se promener / (signe d'interrogation) / 
+#Hahahahaha, allons-nous faire des vitreines d'abord? 
+32	我/吃完/就/溜/ 重点是/不是/几点/ 是/持续/时间/ /俺/还要/工作
+#wǒ/ chī wán/ jiù/ liū/   zhòng diǎn/ shì/ bú shì/ jǐ diǎn/   shì/ chí xù/ shí jiān/   ǎn/ hái yào/ gōng zuò 
+#Je / finir de  mange / je glisse juste / le point est / n'est pas / quand /  est / durée / temps /  je / encore / travail 
+#Je vais juste glisser après avoir mangé. le point n'est pas quand mais la durée . Je dois encore travailler. 
+33	你/请的/几点的/价/哇
+#nǐ qǐng de jǐ diǎn de jià wa 
+#Vous / demander / quelle heure / permission / (signe d'interrogation)
+#Pour quelle heure as-tu demandé un congé 
+34	假/
+#jiǎ /
+#un congé/
+#un congé/
+35	不是/ 我/周三/要/讲/进度/，所以/周二/就算/请假/也要/工作/ 只是/不用/去
+#bú shì/    wǒ/  zhōu sān/  yào/  jiǎng/  jìn dù/  ， suǒ yǐ/  zhōu èr/  jiù suàn/  qǐng jià/  yě yà/  gōng zuò/    zhǐ shì/  bù yòng/  qù 
+#Non / je / mercredi / aller / parler / progrès /, donc / Mardi / Même / demander congé / aussi / travail / juste / non / aller 
+#Non. Je dois parler des progrès mercredi, donc je dois travailler même si je demande un congé mardi, mais je n’ai pas à y aller. 
+36	okk/懂了/
+#okk dǒng le 
+#okk / compris / 
+#okk compris 
+37	万恶的/资本家/
+#wàn è de/  zī běn jiā 
+#Méchant / capitaliste / 
+#Méchant capitaliste 
+38	那/靓靓/我们/可以/先/见
+#nà/ Liangliang/ wǒ men/ kě yǐ/ xiān/ jiàn 
+#Alors / Liangliang / nous / pouvons / d'abord / te voir 
+#Alors Liangliang on peut se rencontrer en premier 
+39	我/想/去
+#wǒ/ xiǎng /qù 
+#Je /veux/ aller 
+#Je veux aller 
+40	吃/awfully/了
+#chī/ awfully /le 
+#Manger / awfully / (signe de déjà fait)
+#manger awfully
+41	哈哈哈哈哈哈/救命/我/明天/也/三点半/得/找个/地方/连/Wi-Fi/看/企业/合同/说明会
+#hā hā hā hā hā hā/ jiù mìng/ wǒ/ míng tiān/ yě/ sān diǎn bàn/ dé /zhǎo gè/ dì fāng /lián/ Wi-Fi /kàn/ qǐ yè/ hé tóng/ shuō míng huì/ 
+#Hahahahahaha /au secours / je / demain / aussi / trois heures trente / falloir / trouver un / lieu / se connecter / Wi-Fi / voir / Entreprise / Contrat / Réunion d'information 
+#Hahahahahaha, au secours, demain à 15h30, je dois aussi trouver une place avec Wi-Fi pour regarder le briefing du contrat d'entreprise 
+42	那/我们/11点半
+#nà wǒ men 11 diǎn bàn 
+#Alors / nous / 11: 30 
+#Alors nous nous voyons à 11:30
+43	11点半/去/吃饭/吗/ 还是/你们/逛
+#11 diǎn bàn/ qù/ chī fàn/ ma/   hái shì/ nǐ men/ guàng /
+#11: 30 / Aller / Manger / (signe d'interrogation) / ou / vous / se balader
+#Allez-vous manger à 11h30? Ou vous allez faire du shopping 
+44	逛/
+#guàng /
+#faire du shopping 
+#faire du shopping 
+45	 要/吃饭/的/时候/喊/我/ 我/20分钟/就/来
+#  yào/ chī fàn/ de/ shí hòu/ hǎn/ wǒ/   wǒ/ 20 fēn zhōn/g jiù lái 
+#aller faire / manger / de / quand / appeler / je /  je / 20 minutes / juste / venir 
+#Appelle-moi quand vous voulez manger. J'arrive dans 20 minutes 
+46	OK/
+#OK/
+#OK/
+#OK/
+47	欣欣儿/，我/上午/有事/，11点半/过来/有点/紧张/，11.45/应该/差不多/
+#xīn xīn ér/ ， wǒ/ shàng wǔ/ yǒu shì/ ，11 diǎn bàn/guò lái/ yǒu diǎn/ jǐn zhāng/ ，11.45/ yīng gāi/ chà bù duō /
+#Xinxiner/ Moi / matin / quelque chose /, 11: 30 / viens ici / un peu / tension /, 11h45 / devrait / presque / 
+#Xinxiner, j'ai quelque chose à faire le matin, c'est un peu serré si je viens à 11h30, 11h45 me va 
+48	我/晕/了/
+#wǒ /yūn/ le 
+#Je /s'évanouir / (signe de déjà fait)
+#Je m'évanouis(expression de se plaindre)
+49	我/下午/突然/一个/面谈/，在/ifs/
+#wǒ /xià wǔ/ tū rán/ yí gè/ miàn tán/， zài/ ifs 
+#Je / après-midi / soudain / a / interview /, dans / ifs / 
+#J'ai soudainement eu une interview l'après-midi à ifs
+50	4点过/
+#4 diǎn guò 
+#Après 4 heures / 
+#Après 4 heures / 

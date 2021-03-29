@@ -1,0 +1,160 @@
+1	为了/避免/汉语/自动/分词/过程/中/出现/切分/盲点/  , 切分/的/基础/应该/是/全切分/算法
+#wèi le/ bì miǎn/ hàn yǔ/ zì dòng/ fēn cí/ guò chéng/ zhōng/ chū xiàn/ qiè fēn/ máng diǎn/   ,  qiè fēn /de /jī chǔ/ yīng gāi/ shì /quán qiè fēn/ suàn fǎ 
+#Afin de / éviter / chinois / automatique / segmentation de mot / processus / milieu / apparaître / segmentation / angle mort /, segmentation / de / base / devrait / être / segmentation complète / algorithme
+#Afin d'éviter les angles morts de segmentation dans le processus de segmentation automatique des mots chinois, la base de la segmentation doit être l'algorithme de segmentation complet.
+2	通过/把/整个/分词/过程/分解/为/若干/子过程/, 实现/多步/处理/策略/, 从而/解决/了/某些/特殊/的/分词/问题 
+#tōng guò/ bǎ /zhěng gè/ fēn cí/ guò chéng/ fēn jiě/ wèi/ ruò gān/ zi guò chéng/ ,  shí xiàn/ duō bù /chǔ lǐ/ cè lüè/ ,  cóng ér/ jiě jué/ le/ mǒu xiē/ tè shū/ de/ fēn cí/ wèn tí   
+#Par / mettre / ensemble / segmentation de mot / processus / décomposition / comme / plusieurs / sous-processus /, réalisation / multi-étapes / traitement / stratégie /, donc / résolu / certains / spécial / de / segmentation de mot / problème
+#En décomposant l'ensemble du processus de segmentation de mot en plusieurs sous-processus, une stratégie de traitement en plusieurs étapes est réalisée, résolvant ainsi certains problèmes spéciaux de segmentation de mot
+3	图 1 /表示/多步/处理/策略/的/自动/分词/实现/流程/
+#tú  1/  biǎo shì/ duō bù/ chǔ lǐ/ cè lüè/ de/ zì dòng/ fēn cí/ shí xiàn/ liú chéng   
+#Figure 1 / représentation / multi-étapes / traitement / stratégie / de / automatique / segmentation de mots / implémentation / processus /
+#La figure 1 montre le processus de réalisation de la segmentation automatique des mots d'une stratégie de traitement en plusieurs étapes
+4	 切分/歧义/中/最/常见/的/一类/歧义/是/交集/歧义/, 但/有/许多/交集/歧义/属于/伪歧义 
+#  qiè fēn/ qí yì/ zhōng/ zuì/ cháng jiàn/ de/ yī lèi/ qí yì/ shì/ jiāo jí/ qí yì/ ,  dàn/ yǒu/ xǔ duō/ jiāo jí/ qí yì/ shǔ yú/ wěi qí yì   
+#Segmentation / Ambiguïté / Moyen / Le plus / Commun / de / Première classe / Ambiguïté / être / Intersection / Ambiguïté /, mais / être / Beaucoup / Intersection / Ambiguïté / Appartenant à / Pseudo-ambiguïté
+#Le type d'ambiguïté le plus courant dans l'ambiguïté de coupe est l'ambiguïté d'intersection, mais il existe de nombreuses ambiguïtés d'intersection qui appartiennent à une pseudo ambiguïté.
+5	所谓/伪歧义/是/指/包含/交集/歧义/但/实际/文本/中/只能/有/或/几乎/只有/一种/切分/可能/的/字段
+#suǒ wèi/ wěi qí yì/ shì/ zhǐ/ bāo hán/ jiāo jí/ qí yì/ dàn/ shí jì/ wén běn/ zhōng/ zhǐ néng/ yǒu/ huò/ jī hū/ zhǐ yǒu/ yī zhǒng/ qiè fēn/ kě néng/ de/ zì duàn 
+#La soi-disant / pseudo ambiguïté / est / fait référence à / contient / intersection / ambiguïté / mais / réel / texte / moyen / seulement / a / ou / presque / seulement / un type / segmentation / possible / de / champ
+#La pseudo-ambiguïté fait référence aux champs qui contiennent une ambiguïté d'intersection mais il n'y a qu'une ou presque une segmentation possible dans le texte réel
+6	我们/采用/查表/的/方式/直接/确定/分词/形式/, 而/不再/参与/后续/的/分词/处理/过程/
+#wǒ men/ cǎi yòng/ chá biǎo/ de/ fāng shì/ zhí jiē/ què dìng/ fēn cí/ xíng shì/ ,  ér/ bù zài/ cān yù/ hòu xù/ de/ fēn cí/ chǔ lǐ/ guò chéng 
+#Nous / adoptons / recherchons le tableau / de / method / direct / confirm / word segmentation / form /, et / ne participons plus / à / suivons / de / word segmentation / processing / process /
+#Nous utilisons la méthode de la table de recherche pour déterminer directement la forme de segmentation de mot et ne participons plus au processus de segmentation de mot suivant
+7	例如/:“办法/规定/”, 实际/文本/中/的/切分/形式/一般/就是/“办法/规定”/, 其中/的/“法规”/很难/成为/一个/词
+#lì rú/ :“ bàn fǎ/ guī dìng/ ”,  shí jì/ wén běn/ zhōng/ de/ qiè fēn/ xíng shì/ yì bān/ jiù shì/ “ bàn fǎ / guī dìng /”,  qí zhōng/ de/ “ fǎ guī ”/ hěn nán/ chéng wéi/ yí gè/ cí 
+#Par exemple /: "méthode / réglementation /", actuel / texte / moyen / de / segmentation / forme / général / oui / "méthode / réglementation" /, où / de / "règlements" / difficile / être / un / mot
+#Par exemple: "méthodes règle que", la forme de segmentation dans le texte actuel est généralement "bàn fǎ / guī dìng", où "fǎ guī" peut difficilement devenir un mot
+8	这样/ 通过/查/伪歧义/表/ , 某些/切分/形式/一开始/就/决定/了
+#zhè yàng /,  tōng guò/ chá/ wěi qí yì/ biǎo/  ,  mǒu xiē/ qiè fēn/ xíng shì/ yī kāi shǐ/ jiù/ jué dìng/ le 
+#De cette façon / passer / vérifier / pseudo ambiguïté / table /, un peu / segmentation / forme / au début / à droite / décidé /
+#De cette manière, en vérifiant la table de pseudo-ambiguïté, certaines formes de segmentation sont déterminées dès le début
+9	大规模/的/统计/表明 /4000 /多/个/列表项/可以/覆盖/全部/交叉/歧义/的/ 53 .35 % /
+#dà guī mó/ de/ tǒng jì/ biǎo míng/  4000/  duō/ gè/ liè biǎo xiàng/ kě yǐ/ fù gài/ quán bù/ jiāo chā/ qí yì/ de/  53 .35 % / 
+#À grande échelle / de / statistiques / indiquant / 4000 / plus / élément / élément de liste / peut / couvrir / tout / croisé / ambiguïté / de / 53,35% /
+#Les statistiques à grande échelle montrent que plus de 4000 éléments de liste peuvent couvrir 53,35% de toutes les ambiguïtés croisées
+10	 在/流程/中/, 首先/使用/全切分/算法/给出/一个/汉语/句子/的/所有/可能/的/切分/方式/, 即/任何/匹配/词典/中/词/的/字串/都/被/加入/到/全切分/结果/集合/当中
+#  zài/ liú chéng/ zhōng/ ,  shǒu xiān/ shǐ yòng/ quán qiè fēn/ suàn fǎ/ gěi chū/ yí gè/ hàn yǔ/ jù zi/ de/ suǒ yǒu/ kě néng/ de/ qiè fēn/ fāng shì/ ,  jí/ rèn hé/ pǐ pèi/ cí diǎn/ zhōng/ cí/ de/ zì chuàn/ dōu/ bèi/ jiā rù/ dào/ quán qiè fēn/ jié guǒ/ jí hé/ dāng zhōng 
+#Dans / processus / dans /, premier / utiliser / segmentation complète / algorithme / donné / un / chinois / phrase / de / tous / possible / de / segment / méthode /, c'est-à-dire / tout / match / dictionnaire / parmi / mot / de / string / tous / (signe de passif) / ajouter / dans / segmentation complètn / resultat / ensemble / millieu
+#Dans le processus, utilisez d'abord l'algorithme de segmentation complet pour donner toutes les méthodes de segmentation possibles pour une phrase chinoise, c'est-à-dire que toute chaîne correspondant au mot du dictionnaire est ajoutée au jeu de résultats de segmentation complet.
+11	这样/, 就/保证/了/句子/中/任何/可能/的/切分/结果/都/不会/被/后续/处理/所/遗漏 
+#zhè yàng /, jiù/ bǎo zhèng/ le/ jù zi/ zhōng/ rèn hé/ kě néng/ de/ qiè fēn/ jié guǒ/ dōu/ bú huì/ bèi/ hòu xù/ chǔ lǐ/ suǒ/ yí lòu   
+#De cette façon /, pouvoir / assurer / déjà / phrase / dans / tout / possible / de / segment / résultat / tous / ne pas / (signe de passif) / suivi / traité / (mot explétif) / omis
+#De cette manière, il est garanti que les éventuels résultats de segmentation dans la phrase ne seront pas manqués par le traitement ultérieur.
+12	 全切分/完成/后/, 某些/切分/结果/( 即/出现/在/词典/中/的/词) /具有/特殊/的/词性/, 不会/与/其他/词/产生/交叉/切分/歧义/, 因而/很/容易/被/首先/确定/下来/ 
+#  quán qiè fēn/ wán chéng/ hòu/ ,  mǒu xiē/ qiè fēn/ jié guǒ/ (jí/ chū xiàn/ zài/ cí diǎn/ zhōng/ de/ cí/ )  jù yǒu/ tè shū/ de/ cí xìng/ ,  bú huì/ yǔ/ qí tā/ cí/ chǎn shēng/ jiāo chā/ qiè fēn/ qí yì/ ,  yīn ér/ hěn/ róng yì/ bèi/ shǒu xiān/ què dìng/ xià lái   
+#Segmentation complète / complète / après /, certains / segmentation / résultat / (c.-à-d. / croix / segment / ambiguïté /, donc / très / facile / être / premier / déterminé / bas /
+#Une fois la segmentation complète terminée, certains résultats de segmentation (c'est-à-dire les mots qui apparaissent dans le dictionnaire) ont des parties spéciales du discours et ne recouperont pas d'autres mots, il est donc facile d'être déterminé en premier
+13	这些/词性/包括/成语/ 、惯用语/ 、叹词/、语气词/等/ 4 类/
+#zhè xiē/ cí xìng/ bāo kuò/ chéng yǔ/、 guàn yòng yǔ /、 tàn cí/ 、 yǔ qì cí/ děng/  4  lèi /
+#Ceux-ci / partie du discours / incluent / idiomes /, idiomes /, interjections /, particules modales / etc / 4 catégories /
+#Ces parties du discours comprennent idiomes, expressions idiomatiques, interjections et particules modales, 4 classes au total.
+14	这/就是/确定性/分词/处理/步骤/
+#zhè/ jiù shì/ què dìng xìng/ fēn cí/ chǔ lǐ/ bù zhòu/ 
+#这/就是/确定性/分词/处理/步骤/
+#C'est le processus de segmentation de mot déterministe
+15	实用/的/汉语/分词/系统/除了/要/对/上述/情况/予以处理/以外/, 还/可以/专门/建立/用户/自己/定义/的/辅助/词典/, 把/某些/满足/汉语/惯用/表达/方式/的/短语/( 如/四字词语/) 存入/其中/, 一开始/就/将/其/切分/为/一个/词 
+#shí yòng/ de/ hàn yǔ/ fēn cí/ xì tǒng/ chú le/ yào/ duì/ shàng shù/ qíng kuàng/ yǔ yǐ chǔ lǐ/ yǐ wài/ ,  hái/ kě yǐ/ zhuān mén/ jiàn lì/ yòng hù/ zì jǐ/ dìng yì/ de/ fǔ zhù/ cí diǎn/ ,  bǎ/ mǒu xiē/ mǎn zú/ hàn yǔ/ guàn yòng/ biǎo dá/ fāng shì/ de/ duǎn yǔ/ (  rú/ sì zì cí yǔ/ )  cún rù/ qí zhōng/ ,  yī kāi shǐ/ jiù/ jiāng /qí/ qiè fēn/ wéi/ yí gè/ cí   
+#Pratique / de / chinois / segmentation de mot / système / en plus de / vers / à / ci-dessus / situation / pour traiter / autre /, aussi / peut / spécial / créer / utilisateur / soi / définition / de / auxiliaire / dictionnaire / , mettez / un peu de / satisfaction / chinois / conventionnel / expression / méthode / de / phrase / (comme / mots à quatre caractères /) stocké dans / où /, au début / juste / sera / il / diviser / être / un mot
+#En plus de traiter les situations ci-dessus, le système pratique de segmentation des mots chinois peut également créer un dictionnaire auxiliaire défini par l'utilisateur pour stocker certaines phrases (telles que des mots à quatre caractères) qui correspondent aux expressions chinoises habituelles et les stocker au début, en un mot
+16	因为/在/这样/的/情况/下/, 分开/来/不易/分析/, 而且/常常/会/出现/错误 
+#yīn wèi/ zài/ zhè yàng/ de/ qíng kuàng/ xià/ ,  fēn kāi/ lái/ bù yì/ fēn xī/ ,  ér qiě/ cháng cháng/ huì/ chū xiàn/ cuò wù   
+#Parce que / dans / ceci / dans / cas / sous /, séparation / venir / pas facile / analyse /, et / souvent / apparaîtra / erreur
+#Parce que dans une telle situation, il n'est pas facile d'analyser séparément, et des erreurs se produisent souvent
+17	 汉语/数词/(/ 即/一 /、二/、三/、百/ 、千/、万/ … …) 是/典型/的/单字词,/ 数词串/就是/单字词串 
+#  hàn yǔ/ shù cí/ (jí/ yī / 、 èr/ 、 sān/ 、 bǎi / 、 qiān /、 wàn / … …)  shì/ diǎn xíng/ de/ dān zì cí/ ,  shù cí chuàn/ jiù shì/ dān zì cí chuàn   
+#Chinois / chiffre / (/ ie / un /, deux /, trois /, cent /, mille /, dix mille / ...) est / typique / de / mot unique, / chaîne numérique / juste / chaîne de mot unique
+#Les chiffres chinois (c'est-à-dire un, deux, trois, cent, mille, dix mille ...) sont des mots typiques à un seul caractère, et la chaîne de nombres est une chaîne de mots à un seul caractère
+18	如果/句子/中/出现/数词串, 有必要/首先/将/其/合并/, 从而/减少/句子/中/切分/结果/的/数量/, 以/利于/分词/过程/后续/阶段/的/处理/
+#rú guǒ/ jù zi/ zhōng/ chū xiàn/ shù cí chuàn/ ,  yǒu bì yào/ shǒu xiān/ jiāng/ qí/ hé bìng/ ,  cóng ér/ jiǎn shǎo/ jù zi/ zhōng/ qiè fēn/ jié guǒ/ de/ shù liàng/ ,  yǐ/ lì yú/ fēn cí/ guò chéng/ hòu xù/ jiē duàn/ de/ chǔ lǐ 
+#Si / phrase / milieu / apparaît / chaîne numérique, il est nécessaire / d'abord / sera / il / combiner /, ainsi / réduire / phrase / milieu / segment / résultat / de / quantité /, afin de / faciliter / partition / processus / Suivi / phase / de / traitement /
+#Si une chaîne de nombres apparaît dans une phrase, il est nécessaire de les fusionner d'abord, réduisant ainsi le nombre de résultats de segmentation dans la phrase, afin de faciliter le traitement des étapes suivantes du processus de segmentation de mots
+19	 汉语/的/重叠/现象/需要/单独/处理 
+#  hàn yǔ/ de/ chóng dié/ xiàn xiàng/ xū yào/ dān dú/ chǔ lǐ   
+#Chinois / de / chevauchement / phénomène / besoin / séparé / traitement
+#Le chevauchement du chinois doit être traité séparément
+20	因为/许多/重叠词/的/存在/, 会/使/句子/中/单个/汉字/节点/增多 
+#yīn wèi/ xǔ duō /chóng dié cí/ de/ cún zài/ ,  huì/ shǐ/ jù zi/ zhōng/ dān gè/ hàn zì/ jié diǎn/ zēng duō   
+#Parce que / beaucoup / mots qui se chevauchent / de / existence /, fera / fera / phrase / zhong / simple / caractères chinois / nœud / croissance
+#En raison de l'existence de nombreux mots qui se chevauchent, cela augmentera le nombre de points d'octet chinois uniques dans la phrase
+21	 如果/不/合并/它们/, 就/会/把/属于/同一词/或/同一节点/的/汉字/分割/开来, 可能/会/使/句子/的/句法/结构/分析/产生/错误
+#  rú guǒ/ bù/ hé bìng/ tā men/ ,  jiù/ huì/ bǎ/ shǔ yú/ tóng yī cí/ huò/ tóng yī jié diǎn/ de/ hàn zì/ fēn gē/ kāi lái/ ,  kě néng/ huì/ shǐ/ jù zi/ de/ jù fǎ/ jié gòu/ fēn xī/ chǎn shēng/ cuò wù 
+#Si / pas / combiné / eux /, alors / sera / mettra / appartiendra à / même mot / ou / au même nœud / de / caractères chinois / divisé / ouvert, peut-être / sera / fera / phrase / de / syntaxe / structure / analyse / Produire / erreur
+#S'ils ne sont pas combinés, les caractères chinois appartenant au même mot ou au même nœud seront séparés, ce qui peut entraîner des erreurs dans l'analyse de la structure syntaxique de la phrase
+22	所以/, 需要/将/重叠/部分/合并/以后/再/设置/相应/的/标志/, 有利于/后续的/句法/分析 
+#suǒ yǐ/ ,  xū yào/ jiāng/ chóng dié/ bù fèn/ hé bìng/ yǐ hòu/ zài/ shè zhì/ xiāng yìng/ de/ biāo zhì/ ,  yǒu lì yú/ hòu xù de/ jù fǎ/ fēn xī   
+#Donc /, besoin / sera / chevaucher / partie / fusionner / tard / re / définir / correspondre / de / drapeau /, en faveur de / suivi / syntaxe / analyse
+#Par conséquent, il est nécessaire de fusionner les parties qui se chevauchent avant de définir les indicateurs correspondants, ce qui est propice à l'analyse syntaxique ultérieure.
+23	整个/分词/处理/过程/中/的/重要/部分/是/未登录词/的/识别
+#zhěng gè/ fēn cí/ chǔ lǐ/ guò chéng/ zhōng/ de/ zhòng yào/ bù fèn/ shì/ wèi dēng lù cí/ de/ shí bié 
+#Entier / segmentation de mot / traitement / processus / dans / de / important / partie / être / mots non enregistrés / de / identification
+#Une partie importante de l'ensemble du processus de segmentation de mots est l'identification des mots non enregistrés
+24	识别/过程/采用/了/统计/方法/, 对/句子/中/出现/的/单字串/进行/中国/人名/ 、中国/地名/、外国/人名/译名/或/地名/译名/的/识别/ 
+#shí bié/ guò chéng/ cǎi yòng/ le/ tǒng jì/ fāng fǎ/ ,  duì/ jù zi/ zhōng/ chū xiàn/ de/ dān zì chuàn/ jìn xíng/ zhōng guó/ rén míng/  、 zhōng guó/ dì míng/ 、 wài guó/ rén míng/ yì míng/ huò/ dì míng/ yì míng/ de/ shí bié   
+#Reconnaissance / processus / adoption / up / statistiques / méthodes /, sur / phrase / dans / apparaissant / de / chaîne unique / progrès / Chine / nom de la personne /, Chine / nom du lieu /, pays étranger / nom de la personne / nom traduit / ou / nom de lieu / nom traduit / de / Identification /
+#Le processus d'identification utilise des méthodes statistiques pour identifier les noms chinois, les noms de lieux chinois, les noms étrangers ou les noms de lieux qui apparaissent dans des chaînes à un seul caractère dans les phrases.
+25	统计/单个/汉字/在/上述/名字/中/出现/的/频率/, 作为/识别/的/依据/
+#tǒng jì/ dān gè/ hàn zì/ zài/ shàng shù/ míng zì/ zhōng/ chū xiàn/ de/ pín lǜ/ ,  zuò wéi/ shí bié/ de/ yī jù 
+#Statistiques / simples / caractères chinois / dans / au-dessus / nom / dans / apparaissent / de / fréquence /, comme / identification / de / base /
+#Comptez la fréquence d'un seul caractère chinois dans le nom ci-dessus comme base de reconnaissance
+26	最后/少数/尚未/确定/的/组合/或/交叉/歧义/以及/未登录词/将/在/下一步/词性/标注/过程/中/借助/词性/信息/和/上下文/信息/予以/确定 
+#zuì hòu/ ,  shǎo shù/ shàng wèi/ què dìng/ de/ zǔ hé/ huò/ jiāo chā/ qí yì/ yǐ jí/ wèi dēng lù cí/ jiāng/ zài/ xià yī bù/ cí xìng/ biāo zhù/ guò chéng/ zhōng/ jiè zhù/ cí xìng/ xìn xī/ hé/ shàng xià wén/ xìn xī/ yǔ yǐ/ què dìng   
+#Dernier / minoritaire / pas encore / déterminé / de / combinaison / ou / croisé / ambiguïté / et / mots non enregistrés / sera / dans / étape suivante / partie du discours / étiquetage / processus / en cours / avec / partie du discours / information / et / contexte / information / Donner / déterminer
+#Enfin, un petit nombre de combinaisons non identifiées ou d'ambiguïtés croisées et de mots non enregistrés seront déterminés dans la partie suivante du processus de marquage de la parole à l'aide d'une partie des informations vocales et des informations contextuelles.
+27	这一过程/也/称为/分词/词性/标注/一体化/过程/
+#zhè yī guò chéng/ yě/ chēng wéi/ fēn cí/ cí xìng/ biāo zhù/ yī tǐ huà/ guò chéng 
+#Ce processus / aussi / appelé / segmentation de mots / partie du discours / étiquetage / intégration / processus /
+#Ce processus est également appelé processus intégré de marquage d'une partie de la parole
+28	整个/分词/过程/的/基础/是/全切分/算法 
+#zhěng gè/ fēn cí/ guò chéng/ de/ jī chǔ/ shì/ quán qiè fēn/ suàn fǎ   
+#Segmentation entière / mot / processus / de / base / être / segmentation complète / algorithme
+#La base de tout le processus de segmentation de mot est l'algorithme de segmentation complet
+29	其/输出/结果/是/一个/句子/的/所有/可能/切分/的/形式/, 即/任何/出现/在/词典/中/的/词/都/放入/全切分/列表
+#qí/ shū chū/ jié guǒ/ shì/ yí gè /jù zi/ de /suǒ yǒu/ kě néng/ qiè fēn/ de/ xíng shì/ ,  jí/ rèn hé/ chū xiàn/ zài/ cí diǎn/ zhōng/ de/ cí/ dōu/ fàng rù/ quán qiè fēn/ liè biǎo 
+#Son / sortie / résultat / est / une / phrase / de / tous / possible / segmentation / de / form /, c'est-à-dire / tous / apparaître / dans / dictionnaire / milieu / de / mots / tous / mettre dans / segmentation complète / liste
+#Le résultat de sortie est toutes les formes de segmentation possibles d'une phrase, c'est-à-dire que tout mot qui apparaît dans le dictionnaire est placé dans la liste de segmentation complète
+30	 例如/, 对于/汉语/句子/”全切分/的/结果/是/一个/有向图 
+#  lì rú/ ,  duì yú/ hàn yǔ/ jù zi/ ” quán qiè fēn/ de/ jié guǒ/ shì/ yí gè/ yǒu xiàng tú   
+#Par exemple /, pour / chinois / phrase / "segmentation complète / de / résultat / est / a / graphique dirigé
+#Par exemple, pour la phrase chinoise "segmentation complète", le résultat est un graphe orienté
+31	”, /其/全切分/结果/如/图 2 /所示
+#”,  qí/ quán qiè fēn/ jié guǒ/ rú/ tú  2/  suǒ shì 
+#/ Sa / segmentation complète / résultats / comme indiqué dans / figure 2 /
+#Le résultat complet de la segmentation est illustré à la figure 2
+32	这是/一个/有向图/, 图中/的/每条弧/表示/一个/切分/结果/, 即/一个/词典/中/存在/的/词 
+#zhè shì/ yí gè/ yǒu xiàng tú/ ,  tú zhōng/ de/ měi tiáo hú/ biǎo shì/ yí gè/ qiè fēn/ jié guǒ/ ,  jí/ yí gè/ cí diǎn/ zhōng/ cún zài/ de/ cí   
+#C'est / un / graphe orienté /, dans le graphe / de / chaque arc / représentation / a / segmentation / résultat /, à savoir / a / dictionnaire / en / existence / de / mot
+#Il s'agit d'un graphe orienté, et chaque arc du graphe représente un résultat de segmentation, c'est-à-dire un mot qui existe dans un dictionnaire
+33	如/:“全/ 、切/ 、分/、切分/”等/
+#rú / :“ quán / 、 qiè/  、 fēn/ 、 qiè fēn /” děng 
+#Tels que /: "tout /, couper /, séparer /, segmentation/etc./
+#Tels que: "plein, coupé, divisé, segmenté" etc.
+34	全切分/算法/保证/了/任何/出现/在/句子/中/字串/如果/它/属于/词典/中/的/一个词/, 则/其/必然/为/有向图/中/的/一个弧 
+#quán qiè fēn/ suàn fǎ/ bǎo zhèng/ le/ rèn hé/ chū xiàn/ zài/ jù zi/ zhōng/ zì chuàn/ rú guǒ/ tā/ shǔ yú/ cí diǎn/ zhōng/ de/ yí gè cí/ ,  zé/ qí/ bì rán/ wèi/ yǒu xiàng tú /zhōng/ de/ yí gè hú   
+#Segmentation complète / algorithme / garantie / sortie / tout / apparaît / dans / phrase / dans / chaîne / si / il / appartient à / dictionnaire / dans / d'un / mot /, alors / son / nécessaire / est / graphique dirigé / dans / de / un arc
+#L'algorithme de segmentation complet garantit que toute chaîne qui apparaît dans une phrase si elle appartient à un mot du dictionnaire doit être un arc dans le graphe orienté
+35	 全部/分词/形式/通过/词典/查询/来/确定/, 所有/汉语/单字/( 6763 个)/ 都/包含/在/词典/中/看作/一个/单字词 
+#  quán bù/ fèn cí/ xíng shì/ tōng guò/ cí diǎn/ chá xún/ lái/ què dìng/ ,  suǒ yǒu/ hàn yǔ/ dān zì/ ( 6763  gè )/  dōu/ bāo hán/ zài/ cí diǎn/ zhōng/ kàn zuò/ yí gè/ dān zì cí   
+#Tout / Participe / Formulaire / Passer / Dictionnaire / Requête / Venir / Déterminer /, Tout / Chinois / Mots / (6763) / Tous / Inclure / Dans / Dictionnaire / Dans / Voir / A / unigram
+#Toutes les formes de mots sont déterminées par une requête de dictionnaire, tous les mots chinois (6763) sont inclus dans le dictionnaire comme un unigram
+36	与/词典/查询/相关/的/数据/结构/主要/是/词典/的/索引/结构/, /本/系统/采用/两级/索引/结构
+#yǔ/ cí diǎn/ chá xún/ xiāng guān/ de/ shù jù/ jié gòu/ zhǔ yào/ shì/ cí diǎn/ de/ suǒ yǐn/ jié gòu/ ,  běn/ xì tǒng/ cǎi yòng/ liǎng jí/ suǒ yǐn/ jié gòu 
+#Et / dictionnaire / query / en relation / de / data / structure / principale / être / dictionnaire / de / index / structure /, / ce / system / utiliser / two-level / index / structure
+#La structure de données liée à la requête de dictionnaire est principalement la structure d'index du dictionnaire. Ce système adopte une structure d'index à deux niveaux.
+37	第 1 级/索引/是/ 6763 个/ 汉字/, 组织/成/哈希表/形式/
+#dì  1  jí/ suǒ yǐn/ shì/ 6763  gè/ hàn zì/ ,  zǔ zhī/ chéng/ hā xī biǎo/ xíng shì 
+#Niveau 1 / Index / Oui / 6763 / Caractères chinois /, organisation / dans / table de hachage / formulaire /
+L'index de premier niveau est de 6763 caractères chinois, organisés sous forme de table de hachage
+38	第 2 级/索引/包括/词典/中/的/全部/词/, 其/第 1 个/字/对应/于/上述/ 6763 个/汉字/
+#dì  2  jí/ suǒ yǐn/ bāo kuò/ cí diǎn/ zhōng/ de/ quán bù/ cí/ ,  qí/ dì  1  gè/ zì/ duì yìng/ yú/ shàng shù/  6763  gè/ hàn zì 
+#Niveau 2 / Index / Inclure / Dictionnaire / dqns / de / Tout / mot /, son / premier / caractère / correspondant / à / au-dessus / 6763 / caractères chinois /
+#L'index de deuxième niveau comprend tous les mots du dictionnaire et le premier caractère correspond aux 6763 caractères chinois ci-dessus
+39	第 2 级/索引/使用/二分查找算法
+#dì  2  jí/ suǒ yǐn/ shǐ yòng/ èr fēn chá zhǎo suàn fǎ 
+#Niveau 2 / Index / Utilisation / Algorithme de recherche binaire
+#L'index de deuxième niveau utilise un algorithme de recherche binaire
+40	词典/的/外部/存储/形式/使用/ Huffman /编码 
+#cí diǎn/ de/ wài bù/ cún chǔ/ xíng shì/ shǐ yòng/  Huffman  /biān mǎ   
+#Dictionnaire / de / externe / stockage / forme / utiliser / huffman / encodage
+#La forme de stockage externe du dictionnaire utilise le codage Huffman

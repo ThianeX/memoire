@@ -1,0 +1,392 @@
+1	我专门请了假
+#wǒ zhuān mén qǐng le jiǎ 
+#
+#
+2	价值110
+#jià zhí 110 
+#
+#
+3	哈哈哈哈哈哈哈哈那我们去哪儿吃呀
+#hā hā hā hā hā hā hā hā nà wǒ men qù nǎ ér chī ya 
+#
+#
+4	我带你们去吃炸猪排
+#wǒ dài nǐ men qù chī zhà zhū pái 
+#
+#
+5	爆炸好吃
+#bào zhà hǎo chī 
+#
+#
+6	枸杞吃过
+#gǒu qǐ chī guò 
+#
+#
+7	好呀
+#hǎo ya 
+#
+#
+8	在哪
+#zài nǎ 
+#
+#
+9	我都可以
+#wǒ dōu kě yǐ 
+#
+#
+10	春熙路
+#chūn xī lù 
+#
+#
+11	哈哈哈哈我也想跟靓靓说吃炸猪排来着
+#hā hā hā hā wǒ yě xiǎng gēn jìng jìng shuō chī zhà zhū pái lái zhe 
+#
+#
+12	那家炸猪排是成都最好吃的
+#nà jiā zhà zhū pái shì chéng dū zuì hǎo chī de 
+#
+#
+13	馋…
+#chán … 
+#
+#
+14	甚至菲菲都说好吃不油
+#shèn zhì fēi fēi dōu shuō hǎo chī bù yóu 
+#
+#
+15	眼泪不争气地从嘴角流了下来
+#yǎn lèi bù zhēng qì dì cóng zuǐ jiǎo liú le xià lái 
+#
+#
+16	还有一个月就可以了
+#hái yǒu yí gè yuè jiù kě yǐ le 
+#
+#
+17	哈哈哈哈哈哈
+#hā hā hā hā hā hā 
+#
+#
+18	那我们明天几点见
+#nà wǒ men míng tiān jǐ diǎn jiàn 
+#
+#
+19	我都可以 我离得近 你问问靓靓@sisei 
+#wǒ dōu kě yǐ   wǒ lí dé jìn   nǐ wèn wèn jìng jìng @sisei  
+#
+#
+20	多重艾特术
+#duō zhòng ài tè shù 
+#
+#
+21	我可
+#wǒ kě 
+#
+#
+22	12点半
+#12 diǎn bàn 
+#
+#
+23	但是我下午待不了很久
+#dàn shì wǒ xià wǔ dài bù liǎo hěn jiǔ 
+#
+#
+24	可能3 4点就要溜
+#kě néng 3 4 diǎn jiù yào liū 
+#
+#
+25	也可以约早点
+#yě kě yǐ yuē zǎo diǎn 
+#
+#
+26	我吃完就溜溜哈哈哈哈哈
+#wǒ chī wán jiù liū liū hā hā hā hā hā 
+#
+#
+27	可
+#kě 
+#
+#
+28	可
+#kě 
+#
+#
+29	或者可以再早点
+#huò zhě kě yǐ zài zǎo diǎn 
+#
+#
+30	@酥雨 你吃完几点溜
+#@ sū yǔ   nǐ chī wán jǐ diǎn liū 
+#
+#
+31	哈哈哈哈哈先逛会儿吗
+#hā hā hā hā hā xiān guàng huì er ma 
+#
+#
+32	我吃完就溜 重点是不是几点 是持续时间 俺还要工作
+#wǒ chī wán jiù liū   zhòng diǎn shì bú shì jǐ diǎn   shì chí xù shí jiān   ǎn hái yào gōng zuò 
+#
+#
+33	你请的几点的价哇
+#nǐ qǐng de jǐ diǎn de jià wa 
+#
+#
+34	假
+#jiǎ 
+#
+#
+35	不是 我周三要讲进度，所以周二就算请假也要工作 只是不用去
+#bú shì   wǒ zhōu sān yào jiǎng jìn dù ， suǒ yǐ zhōu èr jiù suàn qǐng jià yě yào gōng zuò   zhǐ shì bù yòng qù 
+#
+#
+36	okk懂了
+#okk dǒng le 
+#
+#
+37	万恶的资本家
+#wàn è de zī běn jiā 
+#
+#
+38	那靓靓我们可以先见
+#nà jìng jìng wǒ men kě yǐ xiān jiàn 
+#
+#
+39	我想去
+#wǒ xiǎng qù 
+#
+#
+40	吃awfully了
+#chī awfully le 
+#
+#
+41	哈哈哈哈哈哈救命我明天也三点半得找个地方连Wi-Fi看企业合同说明会
+#hā hā hā hā hā hā jiù mìng wǒ míng tiān yě sān diǎn bàn dé zhǎo gè dì fāng lián Wi-Fi kàn qǐ yè hé tóng shuō míng huì 
+#
+#
+42	那我们11点半
+#nà wǒ men 11 diǎn bàn 
+#
+#
+43	11点半去吃饭吗 还是你们逛
+#11 diǎn bàn qù chī fàn ma   hái shì nǐ men guàng 
+#
+#
+44	逛
+#guàng 
+#
+#
+45	 要吃饭的时候喊我 我20分钟就来
+#  yào chī fàn de shí hòu hǎn wǒ   wǒ 20 fēn zhōng jiù lái 
+#
+#
+46	OK
+#OK 
+#
+#
+47	欣欣儿，我上午有事，11点半过来有点紧张，11.45应该差不多
+#xīn xīn ér ， wǒ shàng wǔ yǒu shì ，11 diǎn bàn guò lái yǒu diǎn jǐn zhāng ，11.45 yīng gāi chà bù duō 
+#
+#
+48	我晕了
+#wǒ yūn le 
+#
+#
+49	我下午突然一个面谈，在ifs
+#wǒ xià wǔ tū rán yí gè miàn tán ， zài ifs 
+#
+#
+50	4点过
+#4 diǎn guò 
+#
+#
+51	所以我只有12点半来了，要收拾一下自己
+#suǒ yǐ wǒ zhǐ yǒu 12 diǎn bàn lái le ， yào shōu shí yī xià zì jǐ 
+#
+#
+52	哈哈哈哈哈哈哈那我也慢点来
+#hā hā hā hā hā hā hā nà wǒ yě màn diǎn lái 
+#
+#
+53	我正在收拾自己
+#wǒ zhèng zài shōu shí zì jǐ 
+#
+#
+54	啊 那我也12:30来吗
+#a   nà wǒ yě 12:30 lái ma 
+#
+#
+55	那个吃饭的地方在伊势丹里面哈
+#nà gè chī fàn de dì fāng zài yī shì dān lǐ miàn hā 
+#
+#
+56	好
+#hǎo 
+#
+#
+57	今天也太热了
+#jīn tiān yě tài rè le 
+#
+#
+58	我还穿了大衣…
+#wǒ hái chuān le dà yī … 
+#
+#
+59	我穿的风衣和薄卫衣
+#wǒ chuān de fēng yī hé báo wèi yī 
+#
+#
+60	勉强能行
+#miǎn qiǎng néng xíng 
+#
+#
+61	我画个眉毛就出门
+#wǒ huà gè méi máo jiù chū mén 
+#
+#
+62	我到了
+#wǒ dào le 
+#
+#
+63	你们太快了 我晕
+#nǐ men tài kuài le   wǒ yūn 
+#
+#
+64	我还在地铁
+#wǒ hái zài dì tiě 
+#
+#
+65	紧急搜索面试公司信息
+#jǐn jí sōu suǒ miàn shì gōng sī xìn xī 
+#
+#
+66	哈哈哈哈莫得事你俩慢慢来 我打车过来7分钟
+#hā hā hā hā mò dé shì nǐ liǎ màn màn lái   wǒ dǎ chē guò lái 7 fēn zhōng 
+#
+#
+67	我到站了
+#wǒ dào zhàn le 
+#
+#
+68	哈哈哈哈哈哈 我在伊势丹门口哈
+#hā hā hā hā hā hā   wǒ zài yī shì dān mén kǒu hā 
+#
+#
+69	@sisei 我们在伊势丹一层躲太阳～你来了发消息喔
+#@sisei  wǒ men zài yī shì dān yī céng duǒ tài yáng ～ nǐ lái le fā xiāo xī ō 
+#
+#
+70	你们可以先去
+#nǐ men kě yǐ xiān qù 
+#
+#
+71	俺还有5站
+#ǎn hái yǒu 5 zhàn 
+#
+#
+72	莫得事 欣欣儿在逛
+#mò dé shì   xīn xīn ér zài guàng 
+#
+#
+73	我来了
+#wǒ lái le 
+#
+#
+74	请你们吃饭
+#qǐng nǐ men chī fàn 
+#
+#
+75	你在哪里呀
+#nǐ zài nǎ lǐ ya 
+#
+#
+76	我们在伊势丹门口啃冰淇淋
+#wǒ men zài yī shì dān mén kǒu kěn bīng qí lín 
+#
+#
+77	我好饱哦 我应该先去上个厕所的
+#wǒ hǎo bǎo ó   wǒ yīng gāi xiān qù shàng gè cè suǒ de 
+#
+#
+78	哈哈哈哈哈快点回去就可以上厕所了
+#hā hā hā hā hā kuài diǎn huí qù jiù kě yǐ shàng cè suǒ le 
+#
+#
+79	我周五要入职了
+#wǒ zhōu wǔ yào rù zhí le 
+#
+#
+80	太突然了
+#tài tū rán le 
+#
+#
+81	被压榨当苦力
+#bèi yā zhà dāng kǔ lì 
+#
+#
+82	靓靓去做啥
+#jìng jìng qù zuò shá 
+#
+#
+83	猎头顾问助理
+#liè tóu gù wèn zhù lǐ 
+#
+#
+84	这谁能想到
+#zhè shéi néng xiǎng dào 
+#
+#
+85	哈哈哈哈哈加油
+#hā hā hā hā hā jiā yóu 
+#
+#
+86	加油
+#jiā yóu 
+#
+#
+87	可以
+#kě yǐ 
+#
+#
+88	以后有适合我们的工作要速速群里汇报
+#yǐ hòu yǒu shì hé wǒ men de gōng zuò yào sù sù qún lǐ huì bào 
+#
+#
+89	哈哈哈哈
+#hā hā hā hā 
+#
+#
+90	举手
+#jǔ shǒu 
+#
+#
+91	我找商业分析数据分析和互联网产品的实习
+#wǒ zhǎo shāng yè fēn xī shù jù fēn xī hé hù lián wǎng chǎn pǐn de shí xí 
+#
+#
+92	第一个case给gucci招销售
+#dì yí gè case gěi gucci zhāo xiāo shòu 
+#
+#
+93	哇
+#wa 
+#
+#
+94	好家伙 我不够漂亮还不甜我不行
+#hǎo jiā huo   wǒ bù gòu piào liàng hái bù tián wǒ bù xíng 
+#
+#
+95	对哦
+#duì ó 
+#
+#
+96	哇
+#wa 
+#
+#
+97	还招顾问吗哈哈哈哈哈
+#hái zhāo gù wèn ma hā hā hā hā hā 
+#
+#
+98	我也去投一个算了
+#wǒ yě qù tóu yí gè suàn le 
+#
+#
